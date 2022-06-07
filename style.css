@@ -135,6 +135,17 @@ body{
     margin-top: 0;   
 }
 
+.cont-img2{
+    position: relative;         
+}
+
+.cont-img2 img{
+    position: absolute;
+    bottom: -7rem;
+    left: -1.5rem;
+    width: 425px;            
+}
+
 
 
 
