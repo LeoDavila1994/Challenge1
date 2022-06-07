@@ -47,33 +47,42 @@ body{
    font-weight: 400;
 }
 
-/* Card 1 */
+.container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .container{
     background-color: #FFFFFF;    
     display: grid;    
-    grid-template-columns: 375px;
-    gap: 2rem;    
-    justify-content: center;
-    margin: 2rem;    
+    grid-template-columns:  375px;
+    grid-row-gap: 1rem;            
+    justify-content: center;    
+    margin: 4rem;    
 }
 
+/* Card 1 */
+
 .cont-img{
-    position: relative;      
+    position: relative;         
 }
 
 .cont-img img{
-    position: absolute;
-    top: -1rem;
-    left: -1rem;        
+    position: absolute;            
+}
+
+.d1{
+    justify-content: flex-start;
 }
 
 .d1 h1{
-    margin-top: 4rem;    
-    padding: 0 4rem;    
+    padding: 0 4rem;
 }
 
 .d1 p{
-    padding: 0 2rem;
+    padding: 0 4rem;
+    margin-bottom: 6rem;
 }
 
 /* Card 2 */
@@ -97,8 +106,7 @@ body{
 
 .card{
     background-color: #511f50;
-    padding: 1rem 0;
-    margin: 1rem;
+    padding: 3rem;    
     border-radius: 6px;
 }
 
@@ -106,9 +114,7 @@ body{
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin-right: 1rem;    
 }
 
 .row{
@@ -116,9 +122,7 @@ body{
     align-items: flex-end;
 }
 
-.txt-correct{
-    padding: 1rem 2rem;
-    margin: 0;
+.txt-correct{    
     line-height: 1.5rem;
 }
 
