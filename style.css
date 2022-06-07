@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.fnt-c1{
+    color: #532452;
+}
+.fnt-c2{
+    color: #83757f;
+}
+
+.fnt-c3{
+    color: #614061;
+}
+
+.fnt-c4{
+    color: #f7f2f8;
+}
+
+.fnt-c5{
+    color: #bd629b;
+}
+
+.txt-align{
+    text-align: center;
+}
+
+.fnt-x{
+    font-weight: 700;
+}
+
+.fnt-m{
+    font-weight: 500;    
+}
+
+.fnt-s{
+   font-weight: 400;
+}
+
+/* Card 1 */
+.container{
+    background-color: #FFFFFF;    
+    display: grid;    
+    grid-template-columns: 375px;
+    gap: 2rem;    
+    justify-content: center;
+    margin: 2rem;    
+}
+
+.cont-img{
+    position: relative;      
+}
+
+.cont-img img{
+    position: absolute;
+    top: -1rem;
+    left: -1rem;        
+}
+
+.d1 h1{
+    margin-top: 4rem;    
+    padding: 0 4rem;    
+}
+
+.d1 p{
+    padding: 0 2rem;
+}
+
+/* Card 2 */
+
+.d2 > div{
+    background-color: #f7f2f8;
+    border-radius: 6px;
+    margin: 1rem;
+}
+
+.d2 div p{
+    padding-bottom: 1rem;
+    margin: 0;   
+}
+
+.d2 div img{
+    padding: 0.5rem 0;    
+}
+
+/* Card 3 */
+
+.card{
+    background-color: #511f50;
+    padding: 1rem 0;
+    margin: 1rem;
+    border-radius: 6px;
+}
+
+.card div img{    
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.row{
+    display: flex;
+    align-items: flex-end;
+}
+
+.txt-correct{
+    padding: 1rem 2rem;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.txt-correct2{
+     margin: 0;   
+}
+
+.txt-correct3{
+    margin-top: 0;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
